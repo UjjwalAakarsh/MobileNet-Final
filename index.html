@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>MobileNet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 header">
+                <h2>Image Identification By MobileNet
+                    <img src="https://static.wixstatic.com/media/93eb5f_baaea52385ff4329ab0dd2a445600d7b~mv2.gif">
+                </h2>
+            </div><br><br>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 main_div">
+                <label >Webcam View</label>
+                <div id="camera"></div>
+                <button id="capture" onclick="capture()" class="btn btn-danger">Capture Image</button>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 main_div">
+                <label >Snapshot</label>
+                <div id="snapshot"></div>
+                <button id="identify" onclick="identify()" class="btn btn-danger">Identify Image</button>
+            </div><br><br>
+
+            <div id="output_div" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                <img src="https://miro.medium.com/max/2048/1*hic_Kp7NgpkLvXaFFoVOKA.gif"> <h3 id="output"></h3>
+            </div>
+            <div id="footer">Developed By Ujjwal</div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>

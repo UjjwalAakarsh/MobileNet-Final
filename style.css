@@ -1,0 +1,73 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to right top, #db449a, #a84495, #774185, #4b396e, #2a2d50, #222f4b, #1f3044, #21303c, #2e434d, #3d565d, #4e6a6d, #627e7c);
+}
+
+.header{
+    background-color: #db449a;
+    color: #1f3044;
+    font-size: 40px;
+    float: none;
+    border: 5px solid white;
+    box-shadow: 5px 5px 20px white;
+    border-radius: 25px;
+}
+
+.header img{
+    width: 200px;
+}
+
+.main_div{
+background-color:#774185;
+border: 5px pink groove;
+padding: 10px;
+}
+
+.main_div label{
+    background-color: #db449a;
+    color: white;
+    width: 300px;
+    box-shadow: 5px 5px 18px white;
+    font-size: 25px;
+}
+
+#camera,#snapshot{
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 18px white;
+    border: 10px double white;
+}
+
+button{
+    width: 300px;
+    font-size: 20px;
+    border: 5px solid white;
+    box-shadow:5px 5px 18px white;
+}
+#output_div img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}   
+#output_div{
+    margin-top: 20px;
+    background-color: blueviolet;
+    box-shadow: 5px 5px 18px white;
+    border-radius: 50px;
+}
+#output{
+    display: inline;
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    font-size: 20px;
+    color: blueviolet;
+    line-height: 2;
+    font-weight: bold;
+}
